@@ -12,21 +12,22 @@ public class MainOfStack {
 		
 		MrCoxallStack _aJesusStack = new MrCoxallStack();
 		String anItem;
+		int counter = 0;
 		
 		
+		while (counter < 5) {
+			anItem = input.nextLine();
+			counter++;
+			_aJesusStack.push(anItem);
+		}
 		
-		  anItem = input.nextLine();
 		  
-		  try {
+		  
+	     
+	   
 				
-			   _aJesusStack.push(anItem);
-			  
+		// _aJesusStack.pop(anItem);
 				
-				
-			} finally {
-				
-				 _aJesusStack.pop(anItem);
-				
-			}
-	}
+			
 }
+	}
