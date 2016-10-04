@@ -22,4 +22,19 @@ public class MrCoxallStack<item> {
 				
 		
 	}
+	
+	public void peek(String peeked){
+	
+		 _aStack.peek((item)peeked);
+		System.out.println(_aStack);	
+		
+	}
+	public void clear(){
+		
+		_aStack.clear();
+		System.out.println(_aStack);
+		
+	}
+	
+	
 }

@@ -3,15 +3,13 @@ import java.util.Scanner;
 
 public class MainOfStack {
 	
-	 
-        
-	public static void main(String[] args){
+	 public static void main(String[] args){
 		
 		Scanner input = new Scanner(System.in);
 		
 		
 		MrCoxallStack _aJesusStack = new MrCoxallStack();
-		String anItem;
+		String anItem = null;
 		int counter = 0;
 		
 		
@@ -22,12 +20,10 @@ public class MainOfStack {
 		}
 		
 		  
-		  
-	     
-	   
-				
-		// _aJesusStack.pop(anItem);
-				
-			
+		  if (counter == 5) {
+	     _aJesusStack.pop(anItem);
+	     }		
+		 
+		 _aJesusStack.clear();	
 }
 	}
